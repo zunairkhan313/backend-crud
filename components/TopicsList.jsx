@@ -20,6 +20,7 @@ const getTopics = async () => {
 
 export default async function TopicsList() {
   const { topics } = await getTopics();
+ 
 
   return (
     <>
